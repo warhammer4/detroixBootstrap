@@ -38,10 +38,10 @@ body{
 .bottom-nav-link {
     margin:0 30px;
     color: #fff;
+    background-color: var(--primColor);
     font-family: var(--font);
     font-size: calc(12px + (16 - 12)* ((100vw - 300px)/ (1600 - 300)));
     text-transform: uppercase;
-    background-color: var(--primColor);
 }
 .bottom-nav-link :hover{
     background-color: var(--primColor);
@@ -193,5 +193,6 @@ body{
 .bottom-footer {
     padding: 20px 0 50px;
     background-color: #0b1016;
+    color: #f5f5f5;
 }
 /* close footer */
